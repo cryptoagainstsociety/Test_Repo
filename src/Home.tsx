@@ -483,15 +483,13 @@ const Home = (props: HomeProps) => {
         <main>
             <MainContainer>
                 <WalletContainer>
-                    <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
+                    <Logo><a href="https://www.cryptoagainstsocietynft.com/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="https://www.cryptoagainstsocietynft.com/" target="_blank" rel="noopener noreferrer">Home</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                        <li><a href="https://solscan.io/account/5S3cqCcnCWaGBzAo2qFY4tL1ef8u6m1Ex47QfqWaGsEQ" target="_blank"
+                               rel="noopener noreferrer">View Candy Machine</a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -499,14 +497,14 @@ const Home = (props: HomeProps) => {
                             <ConnectButton>Connect Wallet</ConnectButton>}
                     </Wallet>
                 </WalletContainer>
-                <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
+                <ShimmerTitle>MINT BEGINS MARCH 12 01:00:00 GMT!</ShimmerTitle>
                 <br/>
 
 
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>Crypto Against Society NFTs</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
@@ -580,31 +578,22 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Description</GoldTitle></LogoAligner>
+                            <p>Crypto Against Society is a set of 10000 algorithmically generated NFTs inspired by party games like Cards Against Humanity and based on famous memes, events, terms, and popular figures in the cryptocurrency, wallstreetbets, and Gamestop communities. Each NFT pairs one of 50 possible black prompt cards and one of 255 possible white response cards. Some will be hilarious, some will be clever, some will feel a little too true, and some will just be downright retarded.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Rarity</GoldTitle></LogoAligner>
+                            <img src="logo.png" alt=""></img><p>Silver Logo - Common. The most frequently found cards in the set. There are 180 possible common cards.</p>
+                            <p>Gold Logo - Rare. These will be harder to draw. There are 50 possible rare cards.</p>
+                            <p>Red/Orange Logo - Mythic. These are exceptionally rare cards. There are only 20 possible mythic cards.</p>
+                            <p>Purple Logo - Community Submission. There are 5 cards that were submitted by the early community. Extremely rare.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Secondary Markets</GoldTitle></LogoAligner>
+                            <p>Crypto Against Society will be available for trading and verified on the below secondary markets upon completion of the mint.</p>
+                            <p>Solsea.io</p>
+                            <p><Logo><a href="https://solsea.io/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="logo.png"/></a></Logo></p>
                         </Des>
                     </DesContainer>
                 </MintContainer>

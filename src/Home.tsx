@@ -579,11 +579,12 @@ const Home = (props: HomeProps) => {
                     <DesContainer>
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Description</GoldTitle></LogoAligner>
-                            <p>Crypto Against Society is a set of 10000 algorithmically generated NFTs inspired by party games like Cards Against Humanity and based on famous memes, events, terms, and popular figures in the cryptocurrency, wallstreetbets, and Gamestop communities. Each NFT pairs one of 50 possible black prompt cards and one of 255 possible white response cards. Some will be hilarious, some will be clever, some will feel a little too true, and some will just be downright retarded.</p>
+                            <p>10000 algorithmically generated NFTs based on famous memes, events, terms, and popular figures in the cryptocurrency, wallstreetbets, and Gamestop communities.</p>
+                            <p>Each NFT pairs one of 50 possible black prompt cards and one of 255 possible white response cards.</p>
                         </Des>
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Rarity</GoldTitle></LogoAligner>
-                            <img src="logo.png" alt=""></img><p>Silver Logo - Common. The most frequently found cards in the set. There are 180 possible common cards.</p>
+                            <p><LogoAligner><img src="Common.png" alt=""></img>Silver Logo - Common. The most frequently found cards in the set. There are 180 possible common cards.</LogoAligner></p>
                             <p>Gold Logo - Rare. These will be harder to draw. There are 50 possible rare cards.</p>
                             <p>Red/Orange Logo - Mythic. These are exceptionally rare cards. There are only 20 possible mythic cards.</p>
                             <p>Purple Logo - Community Submission. There are 5 cards that were submitted by the early community. Extremely rare.</p>
@@ -591,9 +592,17 @@ const Home = (props: HomeProps) => {
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Secondary Markets</GoldTitle></LogoAligner>
                             <p>Crypto Against Society will be available for trading and verified on the below secondary markets upon completion of the mint.</p>
-                            <p>Solsea.io</p>
                             <p><Logo><a href="https://solsea.io/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="logo.png"/></a></Logo></p>
+                                                                                                          src="solsea_logo.png"/></a></Logo>
+                                <Logo><a href="https://solanart.io/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="solanart_logo.png"/></a></Logo>                                                                          
+                                <Logo><a href="https://digitaleyes.market/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="digitaleyes_logo.png"/></a></Logo>                                                                          
+                                <Logo><a href="https://magiceden.io/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="magiceden_logo.png"/></a></Logo>          
+                                <Logo><a href="https://alpha.art/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="alpharart_logo.png"/></a></Logo>                                                                                                                                                                             
+                                                                                                          </p>
                         </Des>
                     </DesContainer>
                 </MintContainer>

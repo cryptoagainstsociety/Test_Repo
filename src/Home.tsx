@@ -585,23 +585,23 @@ const Home = (props: HomeProps) => {
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Rarity</GoldTitle></LogoAligner>
                             <p><LogoAligner><img src="Common.png" alt=""></img>Silver Logo - Common. The most frequently found cards in the set. There are 180 possible common cards.</LogoAligner></p>
-                            <p>Gold Logo - Rare. These will be harder to draw. There are 50 possible rare cards.</p>
-                            <p>Red/Orange Logo - Mythic. These are exceptionally rare cards. There are only 20 possible mythic cards.</p>
-                            <p>Purple Logo - Community Submission. There are 5 cards that were submitted by the early community. Extremely rare.</p>
+                            <p><LogoAligner><img src="Rare.png" alt=""></img>Gold Logo - Rare. These will be harder to draw. There are 50 possible rare cards.</LogoAligner></p>
+                            <p><LogoAligner><img src="Mythic.png" alt=""></img>Red/Orange Logo - Mythic. These are exceptionally rare cards. There are only 20 possible mythic cards.</LogoAligner></p>
+                            <p><LogoAligner><img src="Community.png" alt=""></img>Purple Logo - Community Submission. There are 5 cards that were submitted by the early community. Extremely rare.</LogoAligner></p>
                         </Des>
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Secondary Markets</GoldTitle></LogoAligner>
                             <p>Crypto Against Society will be available for trading and verified on the below secondary markets upon completion of the mint.</p>
-                            <p><Logo><a href="https://solsea.io/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="solsea_logo.png"/></a></Logo>
-                                <Logo><a href="https://solanart.io/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="solanart_logo.png"/></a></Logo>                                                                          
-                                <Logo><a href="https://digitaleyes.market/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="digitaleyes_logo.png"/></a></Logo>                                                                          
-                                <Logo><a href="https://magiceden.io/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="magiceden_logo.png"/></a></Logo>          
-                                <Logo><a href="https://alpha.art/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="alpharart_logo.png"/></a></Logo>                                                                                                                                                                             
+                            <p><LogoAligner><a href="https://solsea.io/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="solsea_logo.png"/></a>
+                                <a href="https://solanart.io/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="solanart_logo.png"/></a>                                                                        
+                                <a href="https://digitaleyes.market/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="digitaleyes_logo.png"/></a>                                                                       
+                                <a href="https://magiceden.io/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="magiceden_logo.png"/></a>       
+                                <a href="https://alpha.art/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="alpharart_logo.png"/></a></LogoAligner>                                                                                                                                                                             
                                                                                                           </p>
                         </Des>
                     </DesContainer>
